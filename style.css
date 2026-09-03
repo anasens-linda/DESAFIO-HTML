@@ -1,0 +1,85 @@
+
+
+/* Estilo geral da página */
+body {
+    background-color: #111111;
+    color: #eeeeee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4b0f0f;
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    color: #d4af37;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.dupla {
+    font-size: 18px;
+}
+
+/* Conteúdo principal */
+main {
+    text-align: center;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+/* Imagem */
+main img {
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+/* Texto */
+section {
+    background-color: #222222;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+h2 {
+    color: #d4af37;
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Botão */
+.botao {
+    display: inline-block;
+    background-color: #8b0000;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 25px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+/* Efeito quando passa o mouse */
+.botao:hover {
+    background-color: #d4af37;
+    color: #111111;
+}
+
+/* Rodapé */
+footer {
+    background-color: #4b0f0f;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
